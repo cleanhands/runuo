@@ -2844,6 +2844,7 @@ namespace Server.Mobiles
 				}
 				else if( m_Owner.m_Mobile.Map == null || m_Owner.m_Mobile.Map == Map.Internal )
 				{
+					m_Owner.Deactivate();
 					return;
 				}
 				else if( m_Owner.m_Mobile.PlayerRangeSensitive )//have to check this in the timer....
@@ -2865,6 +2866,7 @@ namespace Server.Mobiles
 				}
 				else if( m_Owner.m_Mobile.Map == null || m_Owner.m_Mobile.Map == Map.Internal )
 				{
+					m_Owner.Deactivate();
 					return;
 				}
 
