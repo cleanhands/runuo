@@ -2,6 +2,9 @@
 <places>
 	<parent name="Trammel">
 		<parent name="Dungeons">
+			<parent name="Blighted Grove">
+				<child name="Entrance" x="586" y="1643" z="-5" />
+			</parent>
 			<parent name="Covetous">
 				<child name="Entrance" x="2499" y="919" z="0" />
 				<child name="Level 1" x="5456" y="1863" z="0" />
@@ -30,42 +33,18 @@
 				<child name="Level 2" x="5143" y="801" z="4" />
 				<child name="Level 3" x="5137" y="986" z="5" />
 			</parent>
+			<parent name="Fire">
+				<child name="Entrance" x="5760" y="2908" z="15" />
+				<child name="Brit Entrance" x="2923" y="3407" z="8" />
+				<child name="Level 1" x="5790" y="1416" z="40" />
+				<child name="Level 2" x="5702" y="1316" z="1" />
+			</parent>
 			<parent name="Hythloth">
 				<child name="Entrance" x="4721" y="3822" z="0" />
 				<child name="Level 1" x="5905" y="20" z="46" />
 				<child name="Level 2" x="5976" y="169" z="0" />
 				<child name="Level 3" x="6083" y="145" z="-20" />
 				<child name="Level 4" x="6059" y="89" z="24" />
-			</parent>
-			<parent name="Shame">
-				<child name="Entrance" x="514" y="1561" z="0" />
-				<child name="Level 1" x="5395" y="126" z="0" />
-				<child name="Level 2" x="5515" y="11" z="5" />
-				<child name="Level 3" x="5514" y="148" z="25" />
-				<child name="Level 4" x="5875" y="20" z="-5" />
-			</parent>
-			<parent name="Wrong">
-				<child name="Entrance" x="2043" y="238" z="10" />
-				<child name="Level 1" x="5825" y="630" z="0" />
-				<child name="Level 2" x="5690" y="569" z="25" />
-				<child name="Level 3" x="5703" y="639" z="0" />
-			</parent>
-			<parent name="Miscellaneous">
-				<child name="Hyloth Fire Pit" x="4596" y="3630" z="30" />
-				<child name="Yew-Britain Brigand Camp" x="885" y="1682" z="0" />
-				<child name="Yew Fort of the Damned" x="972" y="768" z="0" />
-			</parent>
-			<parent name="Terathan Keep">
-				<child name="Entrance" x="5451" y="3143" z="-60" />
-				<child name="Level 1" x="5342" y="1601" z="0" />
-				<child name="Champion Room" x="5205" y="1585" z="0" />
-				<child name="Starroom" x="5139" y="1767" z="0" />
-			</parent>
-			<parent name="Fire">
-				<child name="Entrance" x="5760" y="2908" z="15" />
-				<child name="Brit Entrance" x="2923" y="3407" z="8" />
-				<child name="Level 1" x="5790" y="1416" z="40" />
-				<child name="Level 2" x="5702" y="1316" z="1" />
 			</parent>
 			<parent name="Ice">
 				<child name="Entrance" x="5210" y="2322" z="30" />
@@ -74,11 +53,35 @@
 				<child name="Ratman Room" x="5834" y="327" z="18" />
 				<child name="Ice Demon Lair" x="5700" y="305" z="0" />
 			</parent>
+			<parent name="Miscellaneous">
+				<child name="Hyloth Fire Pit" x="4596" y="3630" z="30" />
+				<child name="Yew-Britain Brigand Camp" x="885" y="1682" z="0" />
+				<child name="Yew Fort of the Damned" x="972" y="768" z="0" />
+			</parent>
 			<parent name="Orc Cave">
 				<child name="Entrance" x="1019" y="1431" z="0" />
 				<child name="Level 1" x="5137" y="2014" z="0" />
 				<child name="Level 2" x="5332" y="1376" z="0" />
 				<child name="Level 3" x="5272" y="2036" z="0" />
+			</parent>
+			<parent name="Painted Caves">
+				<child name="Entrance" x="1716" y="2993" z="0" />
+			</parent>
+			<parent name="Palace of Paroxysmus">
+				<child name="Entrance" x="5576" y="3018" z="25" />
+			</parent>
+			<parent name="Prism of Light">
+				<child name="Entrance" x="3784" y="1097" z="14" />
+			</parent>
+			<parent name="Sanctuary">
+				<child name="Entrance" x="764" y="1646" z="0" />
+			</parent>
+			<parent name="Shame">
+				<child name="Entrance" x="514" y="1561" z="0" />
+				<child name="Level 1" x="5395" y="126" z="0" />
+				<child name="Level 2" x="5515" y="11" z="5" />
+				<child name="Level 3" x="5514" y="148" z="25" />
+				<child name="Level 4" x="5875" y="20" z="-5" />
 			</parent>
 			<parent name="Solen Hives">
 				<child name="Central Area" x="5774" y="1896" z="20" />
@@ -105,6 +108,18 @@
 				<parent name="Area E">
 					<child name="Entrance" x="5732" y="1858" z="0" />
 				</parent>
+			</parent>
+			<parent name="Terathan Keep">
+				<child name="Entrance" x="5451" y="3143" z="-60" />
+				<child name="Level 1" x="5342" y="1601" z="0" />
+				<child name="Champion Room" x="5205" y="1585" z="0" />
+				<child name="Starroom" x="5139" y="1767" z="0" />
+			</parent>
+			<parent name="Wrong">
+				<child name="Entrance" x="2043" y="238" z="10" />
+				<child name="Level 1" x="5825" y="630" z="0" />
+				<child name="Level 2" x="5690" y="569" z="25" />
+				<child name="Level 3" x="5703" y="639" z="0" />
 			</parent>
 		</parent>
 		<parent name="Internal">
@@ -156,6 +171,24 @@
 				<child name="Guard Post" x="2218" y="1116" z="19" />
 				<child name="Orc Fort" x="2171" y="1332" z="0" />
 			</parent>
+			<parent name="Delucia">
+				<child name="Watch Tower" x="5276" y="3945" z="37" />
+				<child name="Center" x="5228" y="3978" z="37" />
+				<child name="Orc Fort" x="5210" y="3636" z="3" />
+			</parent>
+			<parent name="Dock Town">
+				<child name="Docks" x="4551" y="2312" z="-2" />
+			</parent>
+			<parent name="Haven">
+				<child name="Old Haven" x="3650" y="2592" z="0" />
+				<child name="Old Haven North" x="3650" y="2516" z="0" />
+				<child name="New Haven" x="3506" y="2570" z="14" />
+				<child name="New Haven North" x="3502" y="2475" z="34" />
+				<child name="Farmlands" x="3722" y="2647" z="20" />
+			</parent>
+			<parent name="Heartwood">
+				<child name="Entrance" x="6986" y="340" z="0" />
+			</parent>
 			<parent name="Jhelom">
 				<child name="Cemetery" x="1296" y="3719" z="0" />
 				<child name="East Docks" x="1492" y="3696" z="-3" />
@@ -193,10 +226,10 @@
 				<child name="Palace" x="3698" y="1279" z="20" />
 				<child name="West" x="3572" y="1211" z="0" />
 			</parent>
-			<parent name="Haven"> <!-- TODO: Update -->
-				<child name="Docks" x="3650" y="2653" z="0" />
-				<child name="Farmlands" x="3722" y="2647" z="20" />
-				<child name="North" x="3650" y="2516" z="0" />
+			<parent name="Papua">
+				<child name="The Just Inn" x="5769" y="3176" z="0" />
+				<child name="Center" x="5730" y="3208" z="-4" />
+				<child name="Docks" x="5825" y="3256" z="2" />
 			</parent>
 			<parent name="Serpents Hold">
 				<child name="North" x="3023" y="3417" z="15" />
@@ -242,16 +275,6 @@
 				<child name="Empath Abbey" x="635" y="860" z="0" />
 				<child name="Hidden Cave" x="313" y="787" z="-24" />
 				<child name="Orc Fort" x="633" y="1499" z="0" />
-			</parent>
-			<parent name="Delucia">
-				<child name="Watch Tower" x="5276" y="3945" z="37" />
-				<child name="Center" x="5228" y="3978" z="37" />
-				<child name="Orc Fort" x="5210" y="3636" z="3" />
-			</parent>
-			<parent name="Papua">
-				<child name="The Just Inn" x="5769" y="3176" z="0" />
-				<child name="Center" x="5730" y="3208" z="-4" />
-				<child name="Docks" x="5825" y="3256" z="2" />
 			</parent>
 		</parent>
 	</parent>

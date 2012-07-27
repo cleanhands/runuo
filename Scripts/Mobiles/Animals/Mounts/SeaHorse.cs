@@ -9,6 +9,7 @@ namespace Server.Mobiles
 		[Constructable]
 		public SeaHorse() : this( "a sea horse" )
 		{
+			CanSwim = true;
 		}
 
 		[Constructable]

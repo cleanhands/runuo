@@ -39,7 +39,13 @@ namespace Server.Gumps
 					if ( m_Pet.Map == m_From.Map && m_Pet.InRange( m_From, 14 ) )
 					{
 						m_Pet.ControlTarget = null;
-						m_Pet.ControlOrder = OrderType.Release;
+// >>> [1st change of 1]
+						if ( m_Pet is BaseHire )
+							m_Pet.ControlOrder = OrderType.Dismiss;
+						else
+							m_Pet.ControlOrder = OrderType.Release;
+//						m_Pet.ControlOrder = OrderType.Release;
+// end 1st
 					}
 				}
 			}

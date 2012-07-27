@@ -18,6 +18,9 @@
 			<child name="True Britannians" x="1419" y="1622" z="20" />
 		</parent>
 		<parent name="Dungeons">
+			<parent name="Blighted Grove">
+				<child name="Entrance" x="586" y="1643" z="-5" />
+			</parent>
 			<parent name="Covetous">
 				<child name="Entrance" x="2499" y="919" z="0" />
 				<child name="Level 1" x="5456" y="1863" z="0" />
@@ -46,42 +49,18 @@
 				<child name="Level 2" x="5143" y="801" z="4" />
 				<child name="Level 3" x="5137" y="986" z="5" />
 			</parent>
+			<parent name="Fire">
+				<child name="Entrance" x="5760" y="2908" z="15" />
+				<child name="Brit Entrance" x="2923" y="3407" z="8" />
+				<child name="Level 1" x="5790" y="1416" z="40" />
+				<child name="Level 2" x="5702" y="1316" z="1" />
+			</parent>
 			<parent name="Hythloth">
 				<child name="Entrance" x="4721" y="3822" z="0" />
 				<child name="Level 1" x="5905" y="20" z="46" />
 				<child name="Level 2" x="5976" y="169" z="0" />
 				<child name="Level 3" x="6083" y="145" z="-20" />
 				<child name="Level 4" x="6059" y="89" z="24" />
-			</parent>
-			<parent name="Shame">
-				<child name="Entrance" x="514" y="1561" z="0" />
-				<child name="Level 1" x="5395" y="126" z="0" />
-				<child name="Level 2" x="5515" y="11" z="5" />
-				<child name="Level 3" x="5514" y="148" z="25" />
-				<child name="Level 4" x="5875" y="20" z="-5" />
-			</parent>
-			<parent name="Wrong">
-				<child name="Entrance" x="2043" y="238" z="10" />
-				<child name="Level 1" x="5825" y="630" z="0" />
-				<child name="Level 2" x="5690" y="569" z="25" />
-				<child name="Level 3" x="5703" y="639" z="0" />
-			</parent>
-			<parent name="Miscellaneous">
-				<child name="Hyloth Fire Pit" x="4596" y="3630" z="30" />
-				<child name="Yew-Britain Brigand Camp" x="885" y="1682" z="0" />
-				<child name="Yew Fort of the Damned" x="972" y="768" z="0" />
-			</parent>
-			<parent name="Terathan Keep">
-				<child name="Entrance" x="5451" y="3143" z="-60" />
-				<child name="Level 1" x="5342" y="1601" z="0" />
-				<child name="Champion Room" x="5205" y="1585" z="0" />
-				<child name="Starroom" x="5139" y="1767" z="0" />
-			</parent>
-			<parent name="Fire">
-				<child name="Entrance" x="5760" y="2908" z="15" />
-				<child name="Brit Entrance" x="2923" y="3407" z="8" />
-				<child name="Level 1" x="5790" y="1416" z="40" />
-				<child name="Level 2" x="5702" y="1316" z="1" />
 			</parent>
 			<parent name="Ice">
 				<child name="Entrance" x="5210" y="2322" z="30" />
@@ -90,11 +69,40 @@
 				<child name="Ratman Room" x="5834" y="327" z="18" />
 				<child name="Ice Demon Lair" x="5700" y="305" z="0" />
 			</parent>
+			<parent name="Khaldun">
+				<child name="Entrance 1" x="6009" y="3775" z="19" />
+				<child name="Entrance 2" x="5882" y="3819" z="-1" />
+				<child name="Level 1" x="5571" y="1302" z="0" />
+			</parent>
+			<parent name="Miscellaneous">
+				<child name="Hyloth Fire Pit" x="4596" y="3630" z="30" />
+				<child name="Yew-Britain Brigand Camp" x="885" y="1682" z="0" />
+				<child name="Yew Fort of the Damned" x="972" y="768" z="0" />
+			</parent>
 			<parent name="Orc Cave">
 				<child name="Entrance" x="1019" y="1431" z="0" />
 				<child name="Level 1" x="5137" y="2014" z="0" />
 				<child name="Level 2" x="5332" y="1376" z="0" />
 				<child name="Level 3" x="5272" y="2036" z="0" />
+			</parent>
+			<parent name="Painted Caves">
+				<child name="Entrance" x="1716" y="2993" z="0" />
+			</parent>
+			<parent name="Palace of Paroxysmus">
+				<child name="Entrance" x="5576" y="3018" z="25" />
+			</parent>
+			<parent name="Prism of Light">
+				<child name="Entrance" x="3784" y="1097" z="14" />
+			</parent>
+			<parent name="Sanctuary">
+				<child name="Entrance" x="764" y="1646" z="0" />
+			</parent>
+			<parent name="Shame">
+				<child name="Entrance" x="514" y="1561" z="0" />
+				<child name="Level 1" x="5395" y="126" z="0" />
+				<child name="Level 2" x="5515" y="11" z="5" />
+				<child name="Level 3" x="5514" y="148" z="25" />
+				<child name="Level 4" x="5875" y="20" z="-5" />
 			</parent>
 			<parent name="Solen Hives">
 				<child name="Central Area" x="5774" y="1896" z="20" />
@@ -122,10 +130,17 @@
 					<child name="Entrance" x="5732" y="1858" z="0" />
 				</parent>
 			</parent>
-			<parent name="Khaldun">
-				<child name="Entrance 1" x="6009" y="3775" z="19" />
-				<child name="Entrance 2" x="5882" y="3819" z="-1" />
-				<child name="Level 1" x="5571" y="1302" z="0" />
+			<parent name="Terathan Keep">
+				<child name="Entrance" x="5451" y="3143" z="-60" />
+				<child name="Level 1" x="5342" y="1601" z="0" />
+				<child name="Champion Room" x="5205" y="1585" z="0" />
+				<child name="Starroom" x="5139" y="1767" z="0" />
+			</parent>
+			<parent name="Wrong">
+				<child name="Entrance" x="2043" y="238" z="10" />
+				<child name="Level 1" x="5825" y="630" z="0" />
+				<child name="Level 2" x="5690" y="569" z="25" />
+				<child name="Level 3" x="5703" y="639" z="0" />
 			</parent>
 		</parent>
 		<parent name="Internal">

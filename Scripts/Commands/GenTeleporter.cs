@@ -1,3 +1,6 @@
+// Look for
+// >>> Nerun's Distro >>>
+// to find the changes
 using System;
 using System.Collections;
 using Server;
@@ -1022,23 +1025,155 @@ namespace Server.Commands
 				CreateTeleporter( 988, 197, 18, 67, 337, -1, map, Map.Malas, false );
 
 			}
+// >>> Nerun's Distro >>> (removed because Old Haven is now in ruins)
+/*
 			public void CreateTeleportersTrammel( Map map )
 			{
-				// Haven
+				// Haven >>> this is Old Haven!
 				CreateTeleporter( 3632, 2566, 0, 3632, 2566, 20, map, true );
 			}
-
+*/
 			public void CreateTeleportersFelucca( Map map )
 			{
 				// Star room
 				CreateTeleporter( 5140, 1773, 0, 5171, 1586, 0, map, false );
 			}
 
+// >>> Nerun's Distro >>>
+			public void NerunsDistroFeluTram( Map map )
+			{
+				// Britain Sewer
+				CreateTeleporter( 6141, 1431, 4, 6138, 1408, 2, map, false );
+			// Others Mondain's Legacy places
+				//Heartwood
+				CreateTeleporter( 6984, 338, 0, 535, 992, 0, map, true );
+				//Blighted Grove
+				CreateTeleporter( 587, 1638, 0, 6478, 863, 11, map, false );
+				CreateTeleporter( 588, 1638, 0, 6478, 863, 11, map, false );
+				CreateTeleporter( 589, 1638, 0, 6478, 863, 11, map, false );
+				CreateTeleporter( 6477, 862, 10, 587, 1641, -1, map, false );
+				CreateTeleporter( 6471, 869, 21, 6574, 889, 0, map, false );
+				CreateTeleporter( 6472, 869, 20, 6574, 889, 0, map, false );
+				CreateTeleporter( 6473, 869, 20, 6574, 889, 0, map, false );
+				CreateTeleporter( 6474, 869, 18, 6574, 889, 0, map, false );
+				CreateTeleporter( 6588, 868, 0, 6488, 849, 40, map, false );
+				CreateTeleporter( 6588, 867, 0, 6488, 849, 40, map, false );
+				//Palace of Paroxysmus
+				CreateTeleporter( 5577, 3018, 25, 6222, 335, 60, map, false );
+				CreateTeleporter( 5578, 3019, 25, 6222, 335, 60, map, false );
+				CreateTeleporter( 5578, 3018, 25, 6222, 335, 60, map, false );
+				CreateTeleporter( 5578, 3017, 25, 6222, 335, 60, map, false );
+				CreateTeleporter( 5578, 3016, 25, 6222, 335, 60, map, false );
+				CreateTeleporter( 5579, 3017, 25, 6222, 335, 60, map, false );
+				CreateTeleporter( 5579, 3018, 25, 6222, 335, 60, map, false );
+				CreateTeleporter( 5579, 3019, 25, 6222, 335, 60, map, false );
+				CreateTeleporter( 6303, 328, 65, 5623, 3038, 15, map, false );
+				CreateTeleporter( 6304, 328, 65, 5623, 3038, 15, map, false );
+				//Prism of Light
+				CreateTeleporter( 3784, 1098, 12, 6474, 188, 0, map, false );
+				CreateTeleporter( 3785, 1098, 12, 6474, 188, 0, map, false );
+				CreateTeleporter( 6506, 89, -4, 6502, 87, 0, map, false );
+				CreateTeleporter( 6508, 84, -4, 6502, 87, 0, map, false );
+				CreateTeleporter( 6509, 86, -4, 6502, 87, 0, map, false );
+				CreateTeleporter( 6510, 87, -4, 6502, 87, 0, map, false );
+				CreateTeleporter( 6512, 87, -4, 6502, 87, 0, map, false );
+				CreateTeleporter( 6512, 83, -4, 6502, 87, 0, map, false );
+				CreateTeleporter( 6513, 88, -4, 6502, 87, 0, map, false );
+				CreateTeleporter( 6513, 88, -4, 6502, 87, 0, map, false );
+				CreateTeleporter( 6469, 97, -50, 6503, 87, 0, map, false );
+				CreateTeleporter( 6568, 77, -10, 6576, 72, 0, map, false );
+				CreateTeleporter( 6554, 104, 0, 6555, 115, 0, map, false );
+				CreateTeleporter( 6582, 109, 0, 6552, 142, 0, map, false );
+				CreateTeleporter( 6537, 175, 0, 6514, 184, 0, map, false );
+				CreateTeleporter( 6515, 184, 0, 6536, 177, 0, map, false );
+				CreateTeleporter( 6477, 94, -49, 6476, 76, -35, map, false );
+				CreateTeleporter( 6471, 75, -23, 6476, 94, -49, map, false );
+				CreateTeleporter( 6578, 160, 12, 6577, 178, 30, map, false );
+				CreateTeleporter( 6577, 176, 30, 6579, 159, 7, map, false );
+				CreateTeleporter( 6471, 187, 15, 3784, 1097, 14, map, false );
+				CreateTeleporter( 6472, 187, 15, 3784, 1098, 14, map, false );
+				CreateTeleporter( 6541, 117, -15, 6523, 136, -20, map, false );
+				CreateTeleporter( 6523, 136, -20, 6541, 117, -15, map, false );
+			}
+			public void NerunsDistroIlshenar( Map map )
+			{
+			// Others Mondain's Legacy places
+				//Twisted Weald
+				CreateTeleporter( 1450, 1470, -22, 2189, 1253, 0, map, false );
+				CreateTeleporter( 2187, 1251, 2, 1450, 1474, -24, map, false );
+				CreateTeleporter( 2139, 1263, -60, 2139, 1265, -57, map, false );
+				CreateTeleporter( 2139, 1265, -57, 2139, 1263, -60, map, false );
+			}
+			public void NerunsDistroMalas( Map map )
+			{
+			// Others Mondain's Legacy places
+				//Bedlam
+				CreateTeleporter( 117, 1684, 0, 2068, 1372, -75, map, false );
+				CreateTeleporter( 118, 1684, 0, 2068, 1372, -75, map, false );
+				CreateTeleporter( 119, 1684, 0, 2068, 1372, -75, map, false );
+				CreateTeleporter( 120, 1684, 0, 2068, 1372, -75, map, false );
+				CreateTeleporter( 121, 1684, 0, 2068, 1372, -75, map, false );
+				CreateTeleporter( 122, 1684, 0, 2068, 1372, -75, map, false );
+				CreateTeleporter( 123, 1684, 0, 2068, 1372, -75, map, false );
+				CreateTeleporter( 124, 1684, 0, 2068, 1372, -75, map, false );
+				CreateTeleporter( 125, 1684, 0, 2068, 1372, -75, map, false );
+				//Citadel
+				CreateTeleporter( 85, 1880, 0, 100, 1875, 0, map, false );
+				CreateTeleporter( 90, 1919, 0, 100, 1875, 0, map, false );
+				CreateTeleporter( 122, 1869, 0, 100, 1875, 0, map, false );
+				CreateTeleporter( 137, 1916, 0, 100, 1875, 0, map, false );
+				CreateTeleporter( 83, 1883, -8, 182, 1929, 0, map, false );
+				CreateTeleporter( 180, 1932, 12, 83, 1885, 0, map, false );
+				CreateTeleporter( 181, 1932, 12, 83, 1885, 0, map, false );
+				CreateTeleporter( 182, 1932, 12, 83, 1885, 0, map, false );
+				CreateTeleporter( 175, 1894, -13, 102, 1921, 0, map, false );
+				CreateTeleporter( 101, 1925, 17, 175, 1897, 0, map, false );
+				CreateTeleporter( 102, 1925, 17, 175, 1897, 0, map, false );
+				CreateTeleporter( 103, 1925, 17, 175, 1897, 0, map, false );
+				CreateTeleporter( 104, 1925, 17, 175, 1897, 0, map, false );
+				CreateTeleporter( 174, 1880, 0, 82, 1950, 30, map, false );
+				CreateTeleporter( 174, 1879, 0, 82, 1950, 30, map, false );
+				CreateTeleporter( 159, 1976, 17, 7, 1921, 0, map, false );
+				CreateTeleporter( 159, 1975, 17, 7, 1921, 0, map, false );
+				CreateTeleporter( 159, 1974, 17, 7, 1921, 0, map, false );
+				CreateTeleporter( 90, 1920, -7, 64, 1976, 0, map, false );
+				CreateTeleporter( 90, 1921, -7, 64, 1976, 0, map, false );
+				CreateTeleporter( 91, 1917, 15, 44, 1901, 0, map, false );
+				CreateTeleporter( 91, 1918, 15, 44, 1901, 0, map, false );
+				CreateTeleporter( 142, 1901, -7, 7, 1918, 0, map, false );
+				CreateTeleporter( 123, 1877, -11, 61, 1921, 2, map, false );
+				CreateTeleporter( 125, 1877, -11, 61, 1921, 2, map, false );
+				CreateTeleporter( 161, 1919, 12, 23, 1874, -1, map, false );
+				CreateTeleporter( 162, 1919, 12, 23, 1874, -1, map, false );
+				CreateTeleporter( 161, 1924, -12, 29, 1975, 0, map, false );
+				CreateTeleporter( 129, 1972, 12, 61, 1921, 2, map, false );
+				CreateTeleporter( 130, 1972, 12, 61, 1921, 2, map, false );
+				CreateTeleporter( 131, 1972, 12, 61, 1921, 2, map, false );
+				CreateTeleporter( 114, 1907, 20, 18, 1921, 0, map, false );
+				CreateTeleporter( 115, 1907, 20, 18, 1921, 0, map, false );
+				CreateTeleporter( 116, 1907, 20, 18, 1921, 0, map, false );
+				CreateTeleporter( 118, 1918, -14, 14, 1902, 0, map, false );
+				CreateTeleporter( 119, 1918, -14, 14, 1902, 0, map, false );
+				CreateTeleporter( 106, 1881, 0, 355, 779, 1, map, false );
+				//Labyrinth
+				CreateTeleporter( 1717, 1156, -95, 1371, 978, -80, map, false );
+				CreateTeleporter( 1775, 971, -85, 1723, 1158, -90, map, false );
+				CreateTeleporter( 1732, 972, -75, 330, 1973, 0, map, false );
+				CreateTeleporter( 1734, 972, -75, 330, 1973, 0, map, false );
+			}
+// >>> end
+
 			public int CreateTeleporters()
 			{
 				CreateTeleportersMap( Map.Felucca );
 				CreateTeleportersMap( Map.Trammel );
-				CreateTeleportersTrammel( Map.Trammel );
+// >>> Nerun's Distro >>>
+//				CreateTeleportersTrammel( Map.Trammel );
+				NerunsDistroFeluTram( Map.Felucca );
+				NerunsDistroFeluTram( Map.Trammel );
+				NerunsDistroIlshenar( Map.Ilshenar );
+				NerunsDistroMalas( Map.Malas );
+// >>> end
 				CreateTeleportersFelucca( Map.Felucca );
 				CreateTeleportersMap2( Map.Ilshenar );
 				CreateTeleportersMap3( Map.Malas );

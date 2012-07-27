@@ -33,6 +33,11 @@
 			</parent>
 		</parent>
 		<parent name="Dungeons">
+			<parent name="Bedlam">
+				<child name="Entrance" x="2068" y="1372" z="-75" />
+				<child name="First Level" x="120" y="1680" z="0" />
+				<child name="Second Level" x="156" y="1613" z="0" />
+			</parent>
 			<parent name="Doom">
 				<child name="Entrance" x="2367" y="1268" z="-85" />
 				<child name="Tunnel" x="2352" y="1267" z="-110" />
@@ -40,6 +45,10 @@
 				<child name="Gauntlet" x="433" y="331" z="-2" />
 				<child name="Guardian's Room" x="365" y="15" z="-1"/>
 				<child name="Lamp Room" x="470" y="95" z="-1"/>
+			</parent>
+			<parent name="Labyrinth">
+				<child name="Entrance" x="1730" y="978" z="-80" />
+				<child name="Center" x="378" y="1914" z="0" />
 			</parent>
 		</parent>
 		<parent name="Sites">
