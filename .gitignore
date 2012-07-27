@@ -1,9 +1,11 @@
 *.exe
 *.exe.config
 *.log
+*.map
 
 /.\\Export*
 
+/Scripts/Output/
 /Backups/
 /Logs/
 /Saves/
